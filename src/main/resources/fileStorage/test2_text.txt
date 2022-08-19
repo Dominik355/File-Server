@@ -1,0 +1,7 @@
+2022-07-31 22:12:23.224  INFO 246599 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-31 22:12:23.256  INFO 246599 --- [           main] org.dbilik.fileServer.Main              : Started Main in 1.873 seconds (JVM running for 2.842)
+2022-07-31 22:12:34.800  INFO 246599 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+java.lang.NullPointerException: Cannot invoke "java.net.URL.openStream()" because the return value of "java.lang.ClassLoader.getResource(String)" is null
+	at controller.org.dbilik.fileServer.FileController.getFile(FileController.java:24) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
