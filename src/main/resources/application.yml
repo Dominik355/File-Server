@@ -10,3 +10,6 @@ logging:
 spring:
   profiles:
     active: mock ,develop
+
+  banner:
+    location: classpath:banner.txt

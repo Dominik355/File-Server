@@ -16,7 +16,7 @@ public class PropertiesConfiguration {
      */
     @Configuration
     @PropertySource(value = "classpath:serverProperties/server_configuration.yml", factory = MultiProfilePropertySourceFactory.class)
-    public static class FileServerConfigProperties {
+    public static class FileServerPropertiesConfiguration {
 
     }
 

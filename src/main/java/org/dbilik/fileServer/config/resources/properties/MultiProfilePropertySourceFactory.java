@@ -46,7 +46,7 @@ public class MultiProfilePropertySourceFactory implements PropertySourceFactory,
     public MultiProfilePropertySourceFactory() {
     }
 
-    // Construcotr used by SpringApplicationRunListener
+    // Constructor used by SpringApplicationRunListener
     public MultiProfilePropertySourceFactory(SpringApplication app, String[] params) {
     }
 

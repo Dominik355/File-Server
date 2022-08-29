@@ -1,0 +1,8 @@
+
+${AnsiColor.BRIGHT_CYAN}____________________       ${AnsiColor.BRIGHT_YELLOW}   ________
+${AnsiColor.BRIGHT_CYAN}___  ____/__(_)__  /____   ${AnsiColor.BRIGHT_YELLOW}   __  ___/______________   ______________
+${AnsiColor.BRIGHT_CYAN}__  /_   __  /__  /_  _ \  ${AnsiColor.BRIGHT_YELLOW}   _____ \_  _ \_  ___/_ | / /  _ \_  ___/
+${AnsiColor.BRIGHT_CYAN}_  __/   _  / _  / /  __/  ${AnsiColor.BRIGHT_YELLOW}   ____/ //  __/  /   __ |/ //  __/  /
+${AnsiColor.BRIGHT_CYAN}/_/      /_/  /_/  \___/   ${AnsiColor.BRIGHT_YELLOW}   /____/ \___//_/    _____/ \___//_/
+
+${AnsiColor.MAGENTA}:: https://github.com/Dominik355 :: Running Spring Boot ${spring-boot.version} ::
