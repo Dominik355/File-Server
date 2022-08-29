@@ -5,6 +5,6 @@ import org.slf4j.LoggerFactory;
 
 public class AbstractController {
 
-    protected final Logger Log = LoggerFactory.getLogger(getClass());
+    protected final Logger log = LoggerFactory.getLogger(getClass());
 
 }

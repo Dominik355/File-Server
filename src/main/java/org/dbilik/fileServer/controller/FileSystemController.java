@@ -45,6 +45,22 @@ public class FileSystemController extends AbstractFileController {
 
         return createOkFileResponse(null);
     }
+    
+    /*
+    download file
+    upload file
+    get files - get all files and its metadata in particular path/directory
+    getfileTree - create whole filesystem Tree (attributes: depth, includeFileInfo - will be ignored, if tree would be too big [more than X MB])
+        maybe merge getFiles and GetFileTree into 1 abstract method (more input arguments)
+    delete (file or whole directory)
+
+    create Directory
+    delete Directory
+    move/copy File/Directory
+    getAuditInfo (about particular file/s or whole directory [globally last modification in directory/ last accessed etc...])
+
+
+     */
 
     @Override
     protected String getClassMapping() {

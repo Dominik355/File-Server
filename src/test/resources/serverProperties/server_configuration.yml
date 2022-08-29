@@ -1,0 +1,4 @@
+server:
+  workingPath: /home/dominik/Documents/FileServerDirectory/default/
+  allowed-size: 751619276800 #700 GB
+  allowed-size-unit: B

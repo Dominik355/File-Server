@@ -24,7 +24,7 @@ public class FileController extends AbstractFileController {
 
     @GetMapping(value = "/download/{uuid}")
     public void download(@PathVariable("uuid") String uuid, final HttpServletResponse response) {
-        Log.debug("FileController.download called with param[uuid={}]", uuid);
+        log.debug("FileController.download called with param[uuid={}]", uuid);
         downloadService.download(uuid, response);
     }
 

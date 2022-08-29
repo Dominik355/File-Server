@@ -1,5 +1,12 @@
 logging:
   level:
     org:
-      example:
-        fileServer: DEBUG
+      dbilik:
+        fileServer: TRACE
+
+      springframework:
+        test: INFO
+
+spring:
+  profiles:
+    active: mock ,develop

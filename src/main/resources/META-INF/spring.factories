@@ -1,0 +1,1 @@
+org.springframework.boot.SpringApplicationRunListener=org.dbilik.fileServer.config.resources.properties.MultiProfilePropertySourceFactory
