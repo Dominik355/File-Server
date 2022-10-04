@@ -15,7 +15,7 @@ public class PropertiesConfiguration {
      * or add dynamic spring.active.profile parameter into value of PropertySource. It takes care of that
      */
     @Configuration
-    @PropertySource(value = "classpath:serverProperties/server_configuration.yml", factory = MultiProfilePropertySourceFactory.class)
+    @PropertySource(value = "classpath:serverProperties/server_configuration-developp.yml", factory = MultiProfilePropertySourceFactory.class)
     public static class FileServerPropertiesConfiguration {
 
     }

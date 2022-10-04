@@ -55,6 +55,14 @@
             <artifactId>spring-context</artifactId>
             <version>5.3.22</version>
         </dependency>
+
+        <!-- parametrized tests -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>5.8.2</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 </project>

@@ -3,7 +3,6 @@ package org.dbilik.fileServer.abstractt;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import javax.annotation.PostConstruct;
@@ -23,7 +22,6 @@ import java.util.Arrays;
  * then just extend this class and add beans you need for your test
  */
 @ExtendWith(SpringExtension.class)
-@ComponentScan(basePackages = "org.dbilik.fileServer.config")
 public abstract class AbstractIntegrationTest extends AbstractTest {
 
     @Autowired

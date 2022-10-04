@@ -8,4 +8,16 @@ public record FileServerProperties(String workingPath,
                                    String allowedSizeUnit) {
     // record makes this class immutable, so we do not have to use constructor injection without setter methods
     // also constructor binding is not needed when there is only 1 constructor
+
+
+    @Override
+    public String toString() {
+        return """
+            FileServerProperties{
+                workingPath='$workingPath', 
+                allowedSize=$allowedSize, 
+                allowedSizeUnit='$allowedSizeUnit'
+            }
+            """;
+    }
 }

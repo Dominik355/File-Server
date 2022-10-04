@@ -4,62 +4,27 @@ import java.util.regex.Pattern;
 
 public final class SystemProperties {
 
-    private final String operatingsystem;
-    private final String version;
-    private final int majorVersion;
-    private final int minorVersion;
+    public static final SystemProperties props = new SystemProperties();
 
-    private SystemProperties(String operatingsystem, String version, int majorVersion, int minorVersion) {
-        this.operatingsystem = operatingsystem;
-        this.version = version;
-        this.majorVersion = majorVersion;
-        this.minorVersion = minorVersion;
-    }
+    public String operatingsystem;
+    public String version;
+    public int majorVersion;
+    public int minorVersion;
+    public int availableProcessors;
 
-    public String getOperatingsystem() {
-        return operatingsystem;
-    }
-
-    public String getVersion() {
-        return version;
-    }
-
-    public int getMajorVersion() {
-        return majorVersion;
-    }
-
-    public int getMinorVersion() {
-        return minorVersion;
-    }
-
-    public boolean isWindows() {
-        return Platform.WINDOWS.name().equals(operatingsystem);
-    }
-
-    public boolean isLinux() {
-        return Platform.LINUX.name().equals(operatingsystem);
-    }
-
-    public boolean isMac() {
-        return Platform.MAC.name().equals(operatingsystem);
-    }
-
-    private static SystemProperties initializeInstance() {
-        String platform, version;
-        int minorVersion, majorVersion;
-
+    private SystemProperties() {
         String os = System.getProperty("os.name").toLowerCase();
         if (os.indexOf("win") >= 0) {
-            platform = Platform.WINDOWS.name();
+            operatingsystem = Platform.WINDOWS.name();
         }
-        else if (os.indexOf("nix") >= 0 || os.indexOf("nux") >= 0) {
-            platform = Platform.LINUX.name();
+        else if (os.indexOf("nux") >= 0 || os.indexOf("nix") >= 0) {
+            operatingsystem = Platform.LINUX.name();
         }
         else if (os.indexOf("mac") >= 0) {
-            platform = Platform.MAC.name();
+            operatingsystem = Platform.MAC.name();
         }
         else {
-            platform = Platform.UNKNOWN.name();
+            operatingsystem = Platform.UNKNOWN.name();
         }
 
         version = System.getProperty("os.version");
@@ -80,19 +45,21 @@ public final class SystemProperties {
             minorVersion = -1;
         }
 
-        return new SystemProperties(platform, version, majorVersion, minorVersion);
+        availableProcessors = Runtime.getRuntime().availableProcessors();
     }
 
-    enum Platform {UNKNOWN, WINDOWS, LINUX, MAC}
-
-    /**
-     * Lazy loaded singleton
-     */
-    private static class LazyHolder {
-        static final SystemProperties INSTANCE = initializeInstance();
+    public boolean isWindows() {
+        return Platform.WINDOWS.name().equals(operatingsystem);
     }
 
-    public static SystemProperties getInstance() {
-        return LazyHolder.INSTANCE;
+    public boolean isLinux() {
+        return Platform.LINUX.name().equals(operatingsystem);
     }
+
+    public boolean isMac() {
+        return Platform.MAC.name().equals(operatingsystem);
+    }
+
+    private enum Platform {UNKNOWN, WINDOWS, LINUX, MAC}
+
 }

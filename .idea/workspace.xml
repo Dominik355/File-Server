@@ -5,17 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87955749-0e7a-4b2c-a551-4fd86eb2c8c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dbilik/fileServer/abstractt/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dbilik/fileServer/config/resources/properties/MultiProfilePropertiesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dbilik/fileServer/config/resources/resource/ResourceLoaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/domain/InnerPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/domain/PathConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/domain/database/UserDirectory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/service/AbstractIOFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/service/WebFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/service/impl/NIOFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/utils/ArrayUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/utils/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/utils/PathNameUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dbilik/fileServer/config/resources/resource/ResourceUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/serverProperties/properties/server_configuration-develop.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/serverProperties/properties/server_configuration-mock.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/serverProperties/properties/server_configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/serverProperties/yml/server_configuration-develop.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/serverProperties/yml/server_configuration-mock.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/config/resources/properties/FileServerProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/config/resources/properties/FileServerProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/config/resources/properties/MultiProfilePropertySourceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/config/resources/properties/MultiProfilePropertySourceFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/config/resources/properties/PropertiesConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/config/resources/properties/PropertiesConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/config/resources/properties/PropertiesProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/config/resources/properties/PropertiesProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/config/resources/properties/SystemProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/config/resources/properties/SystemProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/config/resources/resource/ResourceLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/config/resources/resource/ResourceUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/io/FileLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/service/DownloadService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/service/UploadService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/service/exception/FileNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/service/exception/FileNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbilik/fileServer/service/impl/DownloadServiceImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/dbilik/fileServer/abstractt/AbstractIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dbilik/fileServer/abstractt/AbstractIntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/dbilik/fileServer/config/YamlConfigTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/dbilik/fileServer/config/resources/properties/MultiProfilePropertiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dbilik/fileServer/config/resources/properties/MultiProfilePropertiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/dbilik/fileServer/config/resources/properties/PropertiesProviderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dbilik/fileServer/config/resources/properties/PropertiesProviderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/dbilik/fileServer/config/resources/resource/ResourceLoaderTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/serverProperties/server_configuration-testDevelop.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/serverProperties/server_configuration-testMock.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/serverProperties/server_configuration.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/serverProperties/yml/server_configuration.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/server_configuration.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,30 +81,33 @@
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/dominik/IdeaProjects/File-Server/src/test/resources/serverProperties",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "spring.configuration.checksum": "4e73f369633bffc92a5dbdbcf8f49088"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dominik/IdeaProjects/File-Server&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;4e73f369633bffc92a5dbdbcf8f49088&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/serverProperties/properties" />
       <recent name="$PROJECT_DIR$/src/test/resources/serverProperties" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources/fileStorage/emil.spajza" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/serverProperties/yml" />
       <recent name="$PROJECT_DIR$/src/main/resources/fileStorage/spajza/komora1" />
       <recent name="$PROJECT_DIR$/src/main/resources/fileStorage" />
       <recent name="$PROJECT_DIR$/src/main/resources/serverProperties" />
@@ -86,35 +117,7 @@
       <recent name="org.example.fileServer.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dbilik.fileServer.Main" />
-      <module name="File-Server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dbilik.fileServer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DownloadFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fileServer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.fileServer.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.fileServer" />
-      <option name="MAIN_CLASS_NAME" value="org.example.fileServer.DownloadFileTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MultiProfilePropertiesTest">
     <configuration name="MultiProfilePropertiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="File-Server" />
       <extension name="coverage">
@@ -130,32 +133,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YamlConfigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MultiProfilePropertiesTest.defaultResourceAlreadyHasProfile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="File-Server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dbilik.fileServer.config.*" />
+          <option name="PATTERN" value="org.dbilik.fileServer.config.resources.properties.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.dbilik.fileServer.config" />
-      <option name="MAIN_CLASS_NAME" value="org.dbilik.fileServer.config.YamlConfigTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="org.dbilik.fileServer.config.resources.properties" />
+      <option name="MAIN_CLASS_NAME" value="org.dbilik.fileServer.config.resources.properties.MultiProfilePropertiesTest" />
+      <option name="METHOD_NAME" value="defaultResourceAlreadyHasProfile" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YamlConfigTest.whenFactoryProvidedThenYamlPropertiesInjected" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MultiProfilePropertiesTest.nonExistingProfile_format_properties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="File-Server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dbilik.fileServer.config.*" />
+          <option name="PATTERN" value="org.dbilik.fileServer.config.resources.properties.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.dbilik.fileServer.config" />
-      <option name="MAIN_CLASS_NAME" value="org.dbilik.fileServer.config.YamlConfigTest" />
-      <option name="METHOD_NAME" value="whenFactoryProvidedThenYamlPropertiesInjected" />
+      <option name="PACKAGE_NAME" value="org.dbilik.fileServer.config.resources.properties" />
+      <option name="MAIN_CLASS_NAME" value="org.dbilik.fileServer.config.resources.properties.MultiProfilePropertiesTest" />
+      <option name="METHOD_NAME" value="nonExistingProfile_format_properties" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResourceUtilsTest.parametrizedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="File-Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dbilik.fileServer.config.resources.resource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.dbilik.fileServer.config.resources.resource" />
+      <option name="MAIN_CLASS_NAME" value="org.dbilik.fileServer.config.resources.resource.ResourceUtilsTest" />
+      <option name="METHOD_NAME" value="parametrizedTest(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Main" />
         <item itemvalue="JUnit.MultiProfilePropertiesTest" />
-        <item itemvalue="JUnit.YamlConfigTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.YamlConfigTest.whenFactoryProvidedThenYamlPropertiesInjected" />
+        <item itemvalue="JUnit.MultiProfilePropertiesTest.defaultResourceAlreadyHasProfile" />
+        <item itemvalue="JUnit.MultiProfilePropertiesTest.nonExistingProfile_format_properties" />
+        <item itemvalue="Spring Boot.Main" />
+        <item itemvalue="JUnit.ResourceUtilsTest.parametrizedTest" />
       </list>
     </recent_temporary>
   </component>
@@ -204,6 +224,15 @@
       <workItem from="1661198381326" duration="4238000" />
       <workItem from="1661286469980" duration="7628000" />
       <workItem from="1661590387304" duration="41422000" />
+      <workItem from="1662021304754" duration="11932000" />
+      <workItem from="1662185569220" duration="30631000" />
+      <workItem from="1662397584551" duration="2136000" />
+      <workItem from="1662741649082" duration="1515000" />
+      <workItem from="1662893065301" duration="7410000" />
+      <workItem from="1663010919452" duration="38000" />
+      <workItem from="1663496540406" duration="1751000" />
+      <workItem from="1664660889831" duration="25735000" />
+      <workItem from="1664913841634" duration="1200000" />
     </task>
     <servers />
   </component>
